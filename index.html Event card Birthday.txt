@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Birthday Party Invitation!</title>
+  <style>
+    body {
+      background: linear-gradient(to right, #fbc2eb, #a6c1ee);
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      height: 200 vh;
+      margin: 0;
+      font-family: 'Segoe UI', sans-serif;
+    }
+
+    .invite-card {
+      background: #ff;
+      padding: 30px 40px;
+      border-radius: 20px;
+      box-shadow: 0 10px 20px rgba(0,0,0,0.2);
+      text-align: center;
+      width: 350px;
+    }
+
+    h1 {
+      color: Red;
+      font-size: 2.5em;
+    }
+
+    h2 {
+      color: blue;
+      margin-top: -10px;
+    }
+
+    p {
+      font-size: 1em;
+      color: Purple;
+      margin: 10px 0;
+    }
+
+    .emoji {
+      font-size: 2.5em;
+      margin-bottom: 15px;
+    }
+
+    .guest-list {
+      margin-top: 20px;
+    }
+
+    .rsvp-button {
+      background-color: Lightblue;
+      color: Red;
+      padding: 10px 20px;
+      border: none;
+      border-radius: 8px;
+      font-size: 1em;
+      cursor: pointer;
+      margin-top: 20px;
+      transition: background-color 0.3s ease;
+    }
+
+    .rsvp-button:hover {
+      background-color: Orange;
+    }
+  </style>
+</head>
+<body>
+
+  <div class="invite-card">
+  
+  <img src="https://cdn.kastatic.org/third_party/javascript-khansrc/live-editor/build/images/cute/CharacterPinkGirl.png" alt="pinkgirl" style="width:100;">
+  
+    <div class="emoji">🎉🎂</div>
+
+    
+    <h1>You're Invited!</h1>
+    <h2>To</h2>
+    
+    <h3> Bhasritha Double Digits Birthday Party!</h3>
+    
+
+    <p><strong> Date:May 1st 2025</strong></p>
+    <p><strong>Time:5:00PM to 7:PM</strong></P>
+    <p><strong>📍 Location:</strong> Hounslowest Greatwest Road</p>
+    <p>You are cordially invited to an elegant birthday dinner celebrating Bhasritha's 10th birthday. Join us for an evening of fine wine, delightful conversations, and memories to cherish for a fabulous year ahead.📍</p>
+
+    <div class="guest-list">
+      <p><strong>Guest List:</strong></p>
+      <p>Madan,<br> Jana, <br>Sai, You!<br></p>
+    </div>
+
+    <button class="rsvp-button" onclick="alert('Thanks for you are part of Bhasrithaa Happiest Movements ! 🎈')">RSVP Now</button>
+  </div>
+
+</body>
+</html>
